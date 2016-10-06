@@ -50,18 +50,23 @@ The distributed operation layer (DOL) is a software development framework to pro
 * 编译
 `$	sudo make install`
  ![Alt text](http://y.photo.qq.com/img?s=09qOcTfFa&l=y.jpg)
-   编译完后文件目录如下
+ 
+  编译完后文件目录如下
+  
    ![Alt text](http://y.photo.qq.com/img?s=hotPc51PI&l=y.jpg)
+   
 * 记录当前的工作路径
+
   `$	pwd`
+  
   ![Alt text](http://y.photo.qq.com/img?s=YzZiQnxWW&l=y.jpg)
   
-#### 3.编译dol
-* 修改路径
-进入刚刚dol的文件夹
+#### 4.编译dol
+* 修改路径进入刚刚dol的文件夹
+
 `$	cd ../dol`
-修改build_zip.xml文件
- 找到下面这段话，就是说上面编译的systemc位置在哪里，
+* 修改build_zip.xml文件,找到下面这段话，就是说上面编译的systemc位置在哪里
+
 `<property name="systemc.inc" value="/home/xixi/systemc-2.3.1/include"/>
 <property name="systemc.lib" value="/home/xixi/systemc-2.3.1/lib-linux64/libsystemc.a"/>`
 
